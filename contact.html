@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h2>My Portfolio</h2>
+      <ul>
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Fill in the form to write me a message.</p>
+      <form action="mailto:ceuzoma12@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="Name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="Email" required>
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="Subject" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="Message" rows="5" required></textarea>
+
+        <button class="button" type="submit">Send message</button>
+      </form>
+      <p><a href="index.html">Back to my portfolio</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Chidozie .E. Uzoma | My Portfolio</p>
+    <p>Email: <a href="mailto:ceuzoma12@gmail.com">ceuzoma12@gmail.com</a></p>
+  </footer>
+</body>
+</html>
